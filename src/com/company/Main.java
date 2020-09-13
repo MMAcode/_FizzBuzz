@@ -6,5 +6,6 @@ public class Main {
 	// write your code here
         System.out.print("ahoj");
         System.out.print("ahoj2");
+        System.out.print("ahoj git acm 'message' ");
     }
 }
