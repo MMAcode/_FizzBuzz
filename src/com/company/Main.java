@@ -53,10 +53,8 @@ public class Main {
 
             //swap words if multiple of 17
             if (i % 17 == 0){
-//                ArrayList<String> texts2 = new ArrayList<>();
                 System.out.print("This is----------------- 17TT: ");
                 Collections.reverse(texts);
-                //unfinished
             }
 
             //Display the text field conditionally.
