@@ -1,4 +1,4 @@
-/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=52950:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/tools.jar:/Users/mmakarov/Miro/bootcamp/java_projects/FizzBuzz/out/production/FizzBuzz com.company.Main
+/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55800:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/lib/tools.jar:/Users/mmakarov/Miro/bootcamp/java_projects/FizzBuzz/out/production/FizzBuzz com.company.Main
 Fizz Buzz challenge:
 1)1
 2)2
@@ -16,7 +16,7 @@ Fizz Buzz challenge:
 14)Bang
 15)FizzBuzz
 16)16
-17)17
+This is----------------- 17TT: 17)17
 18)Fizz
 19)19
 20)Buzz
@@ -33,7 +33,7 @@ Fizz Buzz challenge:
 31)31
 32)32
 33)Bong
-34)34
+This is----------------- 17TT: 34)34
 35)BuzzBang
 36)Fizz
 37)37
@@ -50,7 +50,7 @@ Fizz Buzz challenge:
 48)Fizz
 49)Bang
 50)Buzz
-51)Fizz
+This is----------------- 17TT: 51)Fizz
 52)Fezz
 53)53
 54)Fizz
@@ -67,7 +67,7 @@ Fizz Buzz challenge:
 65)FezzBuzz
 66)Bong
 67)67
-68)68
+This is----------------- 17TT: 68)68
 69)Fizz
 70)BuzzBang
 71)71
@@ -84,7 +84,7 @@ Fizz Buzz challenge:
 82)82
 83)83
 84)FizzBang
-85)Buzz
+This is----------------- 17TT: 85)Buzz
 86)86
 87)Fizz
 88)Bong
@@ -101,7 +101,7 @@ Fizz Buzz challenge:
 99)Bong
 100)Buzz
 101)101
-102)Fizz
+This is----------------- 17TT: 102)Fizz
 103)103
 104)Fezz
 105)FizzBuzzBang
@@ -118,7 +118,7 @@ Fizz Buzz challenge:
 116)116
 117)FizzFezz
 118)118
-119)Bang
+This is----------------- 17TT: 119)Bang
 120)FizzBuzz
 121)Bong
 122)122
@@ -135,7 +135,7 @@ Fizz Buzz challenge:
 133)Bang
 134)134
 135)FizzBuzz
-136)136
+This is----------------- 17TT: 136)136
 137)137
 138)Fizz
 139)139
@@ -152,7 +152,7 @@ Fizz Buzz challenge:
 150)FizzBuzz
 151)151
 152)152
-153)Fizz
+This is----------------- 17TT: 153)Fizz
 154)Bong
 155)Buzz
 156)FizzFezz
@@ -169,7 +169,7 @@ Fizz Buzz challenge:
 167)167
 168)FizzBang
 169)Fezz
-170)Buzz
+This is----------------- 17TT: 170)Buzz
 171)Fizz
 172)172
 173)173
@@ -186,7 +186,7 @@ Fizz Buzz challenge:
 184)184
 185)Buzz
 186)Fizz
-187)Bong
+This is----------------- 17TT: 187)Bong
 188)188
 189)FizzBang
 190)Buzz
@@ -200,5 +200,105 @@ Fizz Buzz challenge:
 198)Bong
 199)199
 200)Buzz
+201)Fizz
+202)202
+203)Bang
+This is----------------- 17TT: 204)Fizz
+205)Buzz
+206)206
+207)Fizz
+208)Fezz
+209)Bong
+210)FizzBuzzBang
+211)211
+212)212
+213)Fizz
+214)214
+215)Buzz
+216)Fizz
+217)Bang
+218)218
+219)Fizz
+220)Bong
+This is----------------- 17TT: 221)Fezz
+222)Fizz
+223)223
+224)Bang
+225)FizzBuzz
+226)226
+227)227
+228)Fizz
+229)229
+230)Buzz
+231)Bong
+232)232
+233)233
+234)FizzFezz
+235)Buzz
+236)236
+237)Fizz
+This is----------------- 17TT: 238)Bang
+239)239
+240)FizzBuzz
+241)241
+242)Bong
+243)Fizz
+244)244
+245)BuzzBang
+246)Fizz
+247)Fezz
+248)248
+249)Fizz
+250)Buzz
+251)251
+252)FizzBang
+253)Bong
+254)254
+This is----------------- 17TT: 255)BuzzFizz
+256)256
+257)257
+258)Fizz
+259)Bang
+260)FezzBuzz
+261)Fizz
+262)262
+263)263
+264)Bong
+265)Buzz
+266)Bang
+267)Fizz
+268)268
+269)269
+270)FizzBuzz
+271)271
+This is----------------- 17TT: 272)272
+273)FizzFezzBang
+274)274
+275)Bong
+276)Fizz
+277)277
+278)278
+279)Fizz
+280)BuzzBang
+281)281
+282)Fizz
+283)283
+284)284
+285)FizzBuzz
+286)FezzBong
+287)Bang
+288)Fizz
+This is----------------- 17TT: 289)289
+290)Buzz
+291)Fizz
+292)292
+293)293
+294)FizzBang
+295)Buzz
+296)296
+297)Bong
+298)298
+299)Fezz
+300)FizzBuzz
 
 Process finished with exit code 0
