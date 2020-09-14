@@ -5,7 +5,7 @@ public class TestClasMiro {
     private String strPr = "public strPr with value by default";
     private String strCo;
 
-    public TestClasMiro(String content){
+    public TestClasMiro(String content) {
         this.strCo = content;
     }
 
