@@ -6,7 +6,7 @@ public class Main {
 
 
     //text-modifying f. without 'rewrite' boolean attribute
-    public static ArrayList<String> addTextConditionally(ArrayList<String> originalString, String textToAdd, int currentNumber, int multiplier) {
+    public static ArrayList<String> addTextConditionaly(ArrayList<String> originalString, String textToAdd, int currentNumber, int multiplier) {
         boolean rewrite = false;
         if (currentNumber % multiplier == 0) {
             originalString.add(textToAdd);
@@ -15,7 +15,7 @@ public class Main {
     }
 
     //text-modifying f. with 'rewrite' boolean attribute
-    public static ArrayList<String> addTextConditionally(ArrayList<String> originalString, String textToAdd, int currentNumber, int multiplier, boolean rewrite, String considerMultipleOf13) {
+    public static ArrayList<String> addTextConditionaly(ArrayList<String> originalString, String textToAdd, int currentNumber, int multiplier, boolean rewrite, String considerMultipleOf13) {
         if (currentNumber % multiplier == 0) {
             originalString.add(textToAdd);
 
@@ -37,19 +37,21 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        //testing new branch
+
         System.out.println("Fizz Buzz challenge:");
         ArrayList<String> texts = new ArrayList<>();
 
         //iterate through all numbers
         for (int i = 1; i < 301; i++) {
             //Prepare text filed to display.
-            texts = addTextConditionally(texts, "Fizz", i, 3);
-            texts = addTextConditionally(texts, "Fezz", i, 13);
-            texts = addTextConditionally(texts, "Buzz", i, 5);
-            texts = addTextConditionally(texts, "Bang", i, 7);
+            texts = addTextConditionaly(texts, "Fizz", i, 3);
+            texts = addTextConditionaly(texts, "Fezz", i, 13);
+            texts = addTextConditionaly(texts, "Buzz", i, 5);
+            texts = addTextConditionaly(texts, "Bang", i, 7);
 
             // handle multiple of 11 but watch-ut for multiple of 13 too (last parameter
-            texts = addTextConditionally(texts, "Bong", i, 11, true, i%13==0 ? "Fezz" : "");
+            texts = addTextConditionaly(texts, "Bong", i, 11, true, i%13==0 ? "Fezz" : "");
 
             //swap words if multiple of 17
             if (i % 17 == 0){
