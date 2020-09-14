@@ -38,6 +38,7 @@ public class Main {
 
     public static void main(String[] args) {
         //testing new branch
+        //ignore this
 
         System.out.println("Fizz Buzz challenge:");
         ArrayList<String> texts = new ArrayList<>();
