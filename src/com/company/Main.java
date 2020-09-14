@@ -2,7 +2,7 @@ package com.company;
 
 public class Main {
 
-    //f.without 'rewrite' boolean attribute
+    //text-modifying f. without 'rewrite' boolean attribute
     public static String addTextConditionally(String originalString, String textToAdd, int currentNumber, int multiplier) {
         boolean rewrite = false;
         if (currentNumber % multiplier == 0) {
@@ -11,7 +11,7 @@ public class Main {
         return originalString;
     }
 
-    //f.with 'rewrite' boolean attribute
+    //text-modifying f. with 'rewrite' boolean attribute
     public static String addTextConditionally(String originalString, String textToAdd, int currentNumber, int multiplier, boolean rewrite, String considerMultipleOf13) {
         if (currentNumber % multiplier == 0) {
             originalString += textToAdd;
@@ -38,16 +38,8 @@ public class Main {
         //iterate through all numbers
         for (int i = 1; i < 201; i++) {
             //Prepare text filed to display.
-//            text = addTextConditionally(text, "Fizz", i, 3);
-//            text = addTextConditionally(text, "Buzz", i, 5);
-//            text = addTextConditionally(text, "Bang", i, 7);
-//            text = addTextConditionally(text, "Bong", i, 11,true);
-
             text = addTextConditionally(text, "Fizz", i, 3);
-
-            // Implementing multiple of 13.
             text = addTextConditionally(text, "Fezz", i, 13);
-
             text = addTextConditionally(text, "Buzz", i, 5);
             text = addTextConditionally(text, "Bang", i, 7);
 
