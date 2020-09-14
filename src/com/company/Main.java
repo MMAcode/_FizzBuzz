@@ -4,11 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Fizz Buzz challenge:");
-        //TestClasMiro test1 = new TestClasMiro("ahoj");
-        //System.out.println(test1.getStrPu());
 
 
-
+//Fill the text field.
         String text = "";
         int nr = 0;
         for (int i=1; i<101; i++){
@@ -22,7 +20,7 @@ public class Main {
             }
 
 
-
+//Print the text field, if it exists.
             if (text=="") {
                 System.out.println(i + ")" + i);
             } else {
