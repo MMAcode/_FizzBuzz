@@ -1,16 +1,32 @@
 package com.company;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
+//test
 
         System.out.println("Fizz Buzz challenge:");
         ArrayList<String> texts = new ArrayList<>();
 
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("How many numbers would you like to see?: ");
+        while(!scanner.hasNextInt()){
+            scanner.nextLine();
+            System.out.println("try again");
+            System.out.print("How many numbers would you like to see?: ");
+        }
+        int amountOfNumbers = scanner.nextInt();
+
+
+
+
+
         //iterate through all numbers
-        for (int i = 1; i < 301; i++) {
+        for (int i = 1; i <= amountOfNumbers; i++) {
 
             //Prepare text filed to display.
             if(i % 3 == 0) texts.add("Fizz");
