@@ -26,9 +26,7 @@ public class Main {
         System.out.println("Which rules/multiples would you like to implement?");
         System.out.print("Type numbers separated by spaces (e.g.: '3 7 5 11'): ");
         String requestedMultiples = scanner.nextLine();
-        //System.out.println("received: " + requestedMultiples + " end" + requestedMultiples.length());
-
-        // get multiples from the string
+        //// get multiples from the string
         ArrayList<String> rules = new ArrayList<>();
         for (int i = 0; i < requestedMultiples.length(); i++) {
             char currentCharacter = requestedMultiples.charAt(i);
@@ -43,20 +41,24 @@ public class Main {
             while(i < requestedMultiples.length() && Character.isDigit(currentCharacter));
             rules.add(supportStringForMultiDigit);
         }
-        //show rules
-        System.out.println("Rules/multiples received: "+ rules);
+        ////show rules
+        System.out.println("Following rules/multiples identified: "+ rules);
+
+
+
+
 
 
         //iterate through all numbers
         for (int i = 1; i <= amountOfNumbers; i++) {
 
             //Prepare text filed to display.
-            if (i % 3 == 0) texts.add("Fizz");
-            if (i % 13 == 0) texts.add("Fezz");
-            if (i % 5 == 0) texts.add("Buzz");
-            if (i % 7 == 0) texts.add("Bang");
+            if (i % 3 == 0 && rules.contains("3")) texts.add("Fizz");
+            if (i % 13 == 0 && rules.contains("13")) texts.add("Fezz");
+            if (i % 5 == 0 && rules.contains("5")) texts.add("Buzz");
+            if (i % 7 == 0 && rules.contains("7")) texts.add("Bang");
 
-            if (i % 11 == 0) {
+            if (i % 11 == 0 && rules.contains("11")) {
                 //quick solution:
                 //                ArrayList<String> texts = new ArrayList<>();
                 //                if(i % 13 == 0) texts.add("Fezz");
@@ -69,7 +71,7 @@ public class Main {
                 texts = textsSupportVar;
             }
 
-            if (i % 17 == 0) {
+            if (i % 17 == 0 && rules.contains("17")) {
                 System.out.print("This is----------------- 17TT: ");
                 Collections.reverse(texts);
             }
