@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-//test
 
         System.out.println("Fizz Buzz challenge:");
         ArrayList<String> texts = new ArrayList<>();
@@ -20,6 +19,21 @@ public class Main {
             System.out.print("How many numbers would you like to see?: ");
         }
         int amountOfNumbers = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.println();
+        System.out.println("Which rules/multiples would you like to implement?");
+        System.out.print("Type numbers separated by spaces (e.g.: '3 7 5 11'): ");
+//        while(!scanner.hasNextInt()){
+//            scanner.nextLine();
+//            System.out.println("try again");
+//            System.out.print("How many numbers would you like to see?: ");
+//        }
+        String requestedMultiples = scanner.nextLine();
+        System.out.println("received: " + requestedMultiples + " end" + requestedMultiples.length()) ;
+
+//        get multiples from the string
+
 
 
 
